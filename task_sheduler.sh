@@ -36,7 +36,7 @@ taskSheduler()
                 do
                     shedule="${shedule} *"
                 done
-                #Add nezw task in the crontab
+                #Add new task in the crontab
                 (crontab -l 2>/dev/null; echo "$shedule $task") | crontab -
             echo "Task sheduled successfully!" 
             fi  
