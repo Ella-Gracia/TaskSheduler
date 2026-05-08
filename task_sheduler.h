@@ -1,0 +1,9 @@
+#include <stdio.h>
+#include <stdbool.h>
+#include <stdlib.h>
+#include <string.h>
+void listOptions();
+void listTasks();
+int getChoice();
+void addTask();
+void removeTask();
